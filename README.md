@@ -10,7 +10,7 @@ I did change "maxOffsetPerTrigger" from 200 to 5000 and I think that I could obs
 
 ### Question 2
 What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
-At the end my impression is that this configuration 
+At the end my impression is that this configuration \
     .option("startingOffsets", "earliest") \
     .option("maxOffsetPerTrigger", 5000) \
     .option("maxRatePerPartition", 5000) \
